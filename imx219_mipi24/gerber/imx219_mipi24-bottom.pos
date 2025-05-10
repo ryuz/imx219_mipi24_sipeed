@@ -1,0 +1,34 @@
+### Footprint positions - created on 2025-03-16T17:21:56+0900 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                     Package                 PosX       PosY       Rot  Side
+C1        1uF                     C_0402_1005Metric    11.4000    -1.8000  180.0000  bottom
+C2        1uF                     C_0402_1005Metric     8.9000    -1.7500  180.0000  bottom
+C3        1uF                     C_0402_1005Metric     8.3000    -4.8000  180.0000  bottom
+C4        1uF                     C_0402_1005Metric    21.3200   -12.1000  180.0000  bottom
+C5        1uF                     C_0402_1005Metric    16.1000   -12.1000  180.0000  bottom
+C6        1uF                     C_0402_1005Metric    21.2500    -6.7500  180.0000  bottom
+C7        1uF                     C_0402_1005Metric    16.1000    -6.7500  180.0000  bottom
+C8        0.1uF                   C_0402_1005Metric    17.0500    -3.5500  -90.0000  bottom
+C9        1uF                     C_0402_1005Metric     6.8000   -18.4000  180.0000  bottom
+C10       4.7uF                   C_0603_1608Metric     1.2000   -10.3000   90.0000  bottom
+C11       10uF                    C_0603_1608Metric     7.9500    -9.5500  180.0000  bottom
+C12       22nF                    C_0402_1005Metric    19.2500    -6.7500  180.0000  bottom
+FB1       BLM18AG601SN1           L_0603_1608Metric    18.3125   -13.7000  180.0000  bottom
+FB2       BLM18AG601SN1           L_0603_1608Metric     6.5000   -14.6500  -90.0000  bottom
+FL1       DLM0NSM900HY2D          DLM0NSM900HY2D       14.5000   -18.0000  -90.0000  bottom
+FL2       DLM0NSM900HY2D          DLM0NSM900HY2D       16.0000   -18.0000  -90.0000  bottom
+FL3       DLM0NSM900HY2D          DLM0NSM900HY2D       17.5000   -18.0000  -90.0000  bottom
+FL4       DLM0NSM900HY2D          DLM0NSM900HY2D       11.5000   -18.0000  -90.0000  bottom
+FL5       DLM0NSM900HY2D          DLM0NSM900HY2D       13.0000   -18.0000  -90.0000  bottom
+J2        FH52-24S-0.5SH          FH52-24S-0.5SH       12.5000   -22.5000  180.0000  bottom
+L1        2.2uH                   L_1008_2520Metric     8.2000   -11.7500    0.0000  bottom
+R1        22                      R_0402_1005Metric    11.9000    -4.5500  180.0000  bottom
+R2        0                       R_0402_1005Metric    11.9000    -5.7000  180.0000  bottom
+R3        5.1k                    R_0402_1005Metric     3.3000   -18.7000   90.0000  bottom
+U1        RT9193-18GB             SOT-23-5             20.7500    -9.5000   90.0000  bottom
+U2        AP7331-28WG             SOT25                15.7000    -9.5000   90.0000  bottom
+U3        LM3671MF-1.2/NOPB       TSOT-23-5             4.1000   -10.0000    0.0000  bottom
+X1        SG-8101CG_24.000000MHz  SG-8101CG            14.9000    -3.6000  -90.0000  bottom
+## End

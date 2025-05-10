@@ -1,0 +1,11 @@
+### Footprint positions - created on 2025-03-16T17:21:56+0900 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                       PosX       PosY       Rot  Side
+          hole_2mm              hole_2mm                   23.0000   -15.0000    0.0000  top
+          hole_2mm              hole_2mm                   23.0000    -2.0000    0.0000  top
+          hole_2mm              hole_2mm                    2.0000   -15.0000    0.0000  top
+J1        DF37NC-30DS-0.4V(51)  HRS_DF37NC-30DS-0.4V_51    11.0000    -5.0000  180.0000  top
+REF**     hole_2mm              hole_2mm                    2.0000    -2.0000    0.0000  top
+## End
