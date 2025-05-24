@@ -24,7 +24,9 @@ Raspberry Pi Camera V2 カメラから、カメラモジュール部分を取り
 
 ## 各種データ
 
-回路図は[こちら](imx219_mipi24.pdf)です。
+回路図は下記の通りです(pdf版は[こちら](imx219_mipi24/imx219_mipi24.pdf))です。
+
+![3Dイメージ](imx219_mipi24/imx219_mipi24.svg)
 
 [KiCAD](https://www.kicad.org/) version 9.0.0 で設計しております。
 
