@@ -1,5 +1,7 @@
 # Tang Mega 138K Pro Dock 用 IMX219 MIPI 変換基板
 
+[English version is here (README_en.md)](README_en.md)
+
 ## 概要
 
 [Raspberry Pi Camera V2](https://raspberry-pi.ksyic.com/main/index/pdp.id/144/pdp.open/144) のベース基板を入れ替えて、Sipeed さんの [Tang Mega 138K Pro Dock](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k-pro.html) に繋ぐための変換基板です。
@@ -34,8 +36,7 @@ Raspberry Pi Camera V2 カメラから、カメラモジュール部分を取り
 
 手元での試作も JLCPCBさんの PCBA で行っており、たまたま在庫表示のあった部品を選定したこともあり、一部不思議な部品選定があるのはそのためです。
 
-ケーブルは[05-24-A-0030-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064636/)を使っておりますが、これは間違って短いものを購入してしまい、いまのところこれでしか
-試せておりません。
+ケーブルは[05-24-A-0030-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064636/)を使っておりますが、これは間違って短いものを購入してしまい、いまのところこれでしか試せておりません。
 
 
 ## 免責事項
@@ -48,10 +49,6 @@ Raspberry Pi Camera V2 カメラから、カメラモジュール部分を取り
 
 製造した本基板の販売や配布を行わない限りは、趣味や研究開発用途でご自由にお使いいただく事が出来ます。
 また、商用に製造販売を希望される場合は、別途ライセンス契約を作者までご相談ください。
-
-This design data is provided under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
-You are free to use it for personal or research purposes as long as you do not sell or distribute the manufactured boards.
-For commercial manufacturing and sales, please contact the author for a separate license agreement.
 
 
 ## 作者情報
