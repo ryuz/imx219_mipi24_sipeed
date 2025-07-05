@@ -34,9 +34,9 @@ Designed with [KiCAD](https://www.kicad.org/) version 9.0.0.
 
 Impedance control is based on the manufacturing specifications for "FR4-Standard TG 135-140" 4-layer boards from [JLCPCB](https://jlcpcb.com/).
 
-Prototyping was also done with JLCPCB's PCBA service. Some unusual component choices were made due to the selection of parts that happened to be in stock at the time.
+Prototyping was also done with JLCPCB's PCBA service. Some components, such as oscillators, may be discontinued parts because they were selected from those in stock at the time. If you manufacture this board yourself, please select alternative or compatible parts as needed.
 
-The cable used is [05-24-A-0030-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064636/), but this was purchased by mistake and is shorter than intended, so it has only been tested with this cable so far.
+The cables tested are [05-24-A-0030-A-4-06-4-T](https://www.digikey.jp/ja/products/detail/gct/05-24-D-0030-A-4-06-4-T/21266592) and [05-24-A-0152-A-4-06-4-T](https://www.digikey.jp/ja/products/detail/gct/05-24-A-0152-A-4-06-4-T/21266890).
 
 
 ## Disclaimer
@@ -54,4 +54,4 @@ For commercial manufacturing and sales, please contact the author for a separate
 ## Author
 
 Ryuji Fuchikami
-r-fuchikami@rtc-lab.com
+[Real-Time Computing Lab](https://rtc-lab.com/)
