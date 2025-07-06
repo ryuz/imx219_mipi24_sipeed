@@ -4,35 +4,34 @@
 
 ## Overview
 
-This is an adapter board that allows you to connect the camera module from the [Raspberry Pi Camera V2](https://raspberry-pi.ksyic.com/main/index/pdp.id/144/pdp.open/144) to the [Tang Mega 138K Pro Dock](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k-pro.html) by replacing the base board.
+This is an adapter board which allows you to connect the camera module from the [Raspberry Pi Camera V2](https://raspberry-pi.ksyic.com/main/index/pdp.id/144/pdp.open/144) to the [Tang Mega 138K Pro Dock](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k-pro.html) by replacing the base board.
 
-It enables the use of Sony's IMX219 sensor with a 24-pin MIPI connector, which appears to be Sipeed's proprietary specification.
-
+It enables the use of Sony's IMX219 sensor with Sipeed's (apparently proprietary) 24-pin MIPI connector.
 
 ## Board Images
 
-The adapter board looks like this:
+Here is the adaptor board:
 
 ![3D view](images/3d_view.png)
 
-Remove the camera module from the Raspberry Pi Camera V2 and attach it to this adapter board for use.
+Remove the camera module from the Raspberry Pi Camera V2 board, and attach it to this adapter board for use.
 
 ![3D view](images/pi_camera_v2.png)
 
-The actual assembled board is shown below.
+The final assembled board is shown below.
 
 ![3D view](images/imx219_mipi24_photo.jpg)
 
 
 ## Data
 
-The schematic is as follows (PDF version is [here](imx219_mipi24/imx219_mipi24.pdf)):
+Here is the schematic. (The PDF version is [here](imx219_mipi24/imx219_mipi24.pdf)):
 
 ![Schematic](imx219_mipi24/imx219_mipi24.svg)
 
 Designed with [KiCAD](https://www.kicad.org/) version 9.0.0.
 
-Impedance control is based on the manufacturing specifications for "FR4-Standard TG 135-140" 4-layer boards from [JLCPCB](https://jlcpcb.com/).
+Prototypes were manufactured by JLCPCB's PCBA service.  Impedance control is based on the manufacturing specifications for "FR4-Standard TG 135-140" 4-layer boards from [JLCPCB](https://jlcpcb.com/).
 
 Prototyping was also done with JLCPCB's PCBA service. Some components, such as oscillators, may be discontinued parts because they were selected from those in stock at the time. If you manufacture this board yourself, please select alternative or compatible parts as needed.
 
