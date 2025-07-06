@@ -39,6 +39,21 @@ Raspberry Pi Camera V2 カメラから、カメラモジュール部分を取り
 ケーブルは[05-24-A-0030-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064636/) と [05-24-A-0152-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064715/) の2種類で試しております。
 
 
+## 動作テスト
+
+下記のプロジェクトなどで動作テストを行っております。
+
+- https://github.com/ryuz/jelly/tree/master/projects/tang_mega_138k_pro/tang_mega_138k_pro_imx219_720p
+- https://github.com/ryuz/jelly/tree/master/projects/tang_mega_138k_pro/tang_mega_138k_pro_imx219_stereo
+
+
+実際に2つのカメラを繋いで、256x256 の画像を交互に表示したいるのが下記です。
+
+![stereo_view](images/stereo_view.png)
+
+なお単純な受信テストは 2lane と 4lane の両方ともうまくいっております。
+
+
 ## 免責事項
 
 本設計データは、研究開発用の試作実験に用するものであり、利用に際して発生した如何なる損害も作者は補償いたしませんので予めご了承ください。
