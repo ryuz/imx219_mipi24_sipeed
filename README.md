@@ -34,9 +34,24 @@ Raspberry Pi Camera V2 カメラから、カメラモジュール部分を取り
 
 [JLCPCB](https://jlcpcb.com/) さんの４層基板で「FR4-Standard TG 135-140」の製造仕様に合わせてインピーダンスコントロールしております。
 
-手元での試作も JLCPCBさんの PCBA で行っており、たまたま在庫表示のあった部品を選定したこともあり、一部不思議な部品選定があるのはそのためです。
+手元での試作は JLCPCBさんの PCBA で行っており、たまたま在庫表示のあった部品を選定したこともあり、発信器などでディスコン品番なども混ざっておりますが、各自で製造される場合は必要に応じて後継の互換品を選定ください。
 
-ケーブルは[05-24-A-0030-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064636/)を使っておりますが、これは間違って短いものを購入してしまい、いまのところこれでしか試せておりません。
+ケーブルは[05-24-A-0030-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064636/) と [05-24-A-0152-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064715/) の2種類で試しております。
+
+
+## 動作テスト
+
+下記のプロジェクトなどで動作テストを行っております。
+
+- https://github.com/ryuz/jelly/tree/master/projects/tang_mega_138k_pro/tang_mega_138k_pro_imx219_720p
+- https://github.com/ryuz/jelly/tree/master/projects/tang_mega_138k_pro/tang_mega_138k_pro_imx219_stereo
+
+
+実際に2つのカメラを繋いで、256x256 の画像を交互に表示したいるのが下記です。
+
+![stereo_view](images/stereo_view.png)
+
+なお単純な受信テストは 2lane と 4lane の両方ともうまくいっております。
 
 
 ## 免責事項
@@ -51,7 +66,17 @@ Raspberry Pi Camera V2 カメラから、カメラモジュール部分を取り
 また、商用に製造販売を希望される場合は、別途ライセンス契約を作者までご相談ください。
 
 
+## BOOTH への出品
+
+自身で基板製造するのが難しい方の為に、作者が少し余分に製造したものを [BOOTH](https://rtc-lab.booth.pm/) に出品しております。
+
+- [Tang Mega 138K Pro Dock 用 IMX219 MIPI 変換基板](https://rtc-lab.booth.pm/items/7095235)
+- [Tang Mega 138K Pro Dock 用 IMX219 MIPI カメラ基板(イメージセンサー付き)](https://rtc-lab.booth.pm/items/7132890)
+
+あくまで試作品ですので品質を保証できるものではなく、在庫限りとなりますが、よろしければご活用ください。
+
+
 ## 作者情報
 
 渕上 竜司(Ryuji Fuchikami)
-r-fuchikami@rtc-lab.com
+[リアルタイムコンピューティング研究所](https://rtc-lab.com/)
