@@ -35,7 +35,19 @@ Prototypes were manufactured by JLCPCB's PCBA service.  Impedance control is bas
 
 Prototyping was also done with JLCPCB's PCBA service. Some components, such as oscillators, may be discontinued parts because they were selected from those in stock at the time. If you manufacture this board yourself, please select alternative or compatible parts as needed.
 
-The cables tested are [05-24-A-0030-A-4-06-4-T](https://www.digikey.jp/ja/products/detail/gct/05-24-D-0030-A-4-06-4-T/21266592) and [05-24-A-0152-A-4-06-4-T](https://www.digikey.jp/ja/products/detail/gct/05-24-A-0152-A-4-06-4-T/21266890).
+The cables tested are [05-24-A-0030-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064636/) and [05-24-A-0152-A-4-06-4-T](https://www.marutsu.co.jp/pc/i/46064715/).
+## Operation Test
+
+Operation tests have been performed with the following projects:
+
+- https://github.com/ryuz/jelly/tree/master/projects/tang_mega_138k_pro/tang_mega_138k_pro_imx219_720p
+- https://github.com/ryuz/jelly/tree/master/projects/tang_mega_138k_pro/tang_mega_138k_pro_imx219_stereo
+
+Below is an example where two cameras are connected and 256x256 images are alternately displayed:
+
+![stereo_view](images/stereo_view.png)
+
+Simple reception tests have succeeded with both 2-lane and 4-lane configurations.
 
 
 ## Disclaimer
@@ -46,9 +58,21 @@ This design data is intended for use in experimental prototypes for research and
 
 This design data is provided under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
-You are free to use it for personal or research purposes as long as you do not sell or distribute the manufactured boards.
-For commercial manufacturing and sales, please contact the author for a separate license agreement.
+You are free to use this for hobby or research purposes as long as you do not sell or distribute the manufactured boards.
+If you wish to manufacture and sell commercially, please contact the author for a separate license agreement.
 
+
+
+## BOOTH Sales
+
+For those who find it difficult to manufacture the board themselves, the author has listed a small number of extra boards on [BOOTH](https://rtc-lab.booth.pm/):
+
+- [IMX219 MIPI Adapter Board for Tang Mega 138K Pro Dock](https://rtc-lab.booth.pm/items/7095235)
+- [IMX219 MIPI Camera Board for Tang Mega 138K Pro Dock (with image sensor)](https://rtc-lab.booth.pm/items/7132890)
+
+These are prototypes and quality is not guaranteed. They are available only while stocks last.
+
+Boards purchased from the author may be used freely for both commercial and non-commercial purposes.
 
 ## Author
 
